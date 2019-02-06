@@ -1,0 +1,4 @@
+# base.txt
+Django==1.10
+djangorestframework
+markdown
