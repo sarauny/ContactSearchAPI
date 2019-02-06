@@ -36,7 +36,6 @@ $ ./manage.py migrate
 $ ./manage.py import_company_from_csv csv_data/company.csv
 $ ./manage.py import_contact_from_csv csv_data/contact.csv
 ```
-```
 
 ## API TESTING
 
