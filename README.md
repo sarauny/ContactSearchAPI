@@ -20,10 +20,9 @@ $ git clone https://github.com/sarauny/ContactSearchAPI.git
 
 ###	4. Download necessary python packages
 ```
-$ cd ContactSearchAPI-Master
+$ cd ContactSearchAPI
 $ pip3 install -r requirement/base.txt
 ```
-
 
 ### 5 create data models
 ```
