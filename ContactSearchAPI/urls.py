@@ -21,6 +21,6 @@ from search.views import RESTContactDetail, RESTContactListByCompany
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^/contacts/$', RESTContactListByCompany.as_view(), name='rest_contact_list_by_company'),
-    url(r'^/contacts/(?P<pk>[0-9]+)/$', RESTContactDetail.as_view(), name='rest_contact_detail'),
+    url(r'^contacts/$', RESTContactListByCompany.as_view(), name='rest_contact_list_by_company'),
+    url(r'^contacts/(?P<pk>[0-9]+)/$', RESTContactDetail.as_view(), name='rest_contact_detail'),
     ]
