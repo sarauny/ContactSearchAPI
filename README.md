@@ -47,29 +47,29 @@ $ ./manage.py runserver
 ### 2. Starting development server at port 8000, http://127.0.0.1:8000/
 
 1. Fetch list of contacts:
-The endpoint should be able to fetch list of all contacts without applying any filters.
-Endpoint: /contacts
+The endpoint should be able to fetch list of all contacts without applying any filters.  
+Endpoint: /contacts  
 eg @ (http://127.0.0.1:8000/contacts)
 
 2) Fetch specific contact:
-This endpoint can fetch a specific contact given its id
-Endpoint: /contacts/1
-eg @ (http://127.0.0.1:8000/contacts/101)
+This endpoint can fetch a specific contact given its id  
+Endpoint: /contacts/1  
+eg @ (http://127.0.0.1:8000/contacts/101)  
 
 3) Filter contacts based on company
-The endpoint should be able to fetch contacts of a particular company
-Endpoint: /contacts?company_id=1
+The endpoint should be able to fetch contacts of a particular company  
+Endpoint: /contacts?company_id=1  
 eg @ (http://127.0.0.1:8000/contacts?company_id=11)
 
-4) Filter contacts by company revenue:
-The endpoint should be able to fetch contacts based on company revenue.
-This is an inequality filter which should be applied as greater than or equal to.
-Endpoint: /contacts?revenue_gte=100000
+4) Filter contacts by company revenue:  
+The endpoint should be able to fetch contacts based on company revenue.    
+This is an inequality filter which should be applied as greater than or equal to.    
+Endpoint: /contacts?revenue_gte=100000   
 eg @ (http://127.0.0.1:8000/contacts?revenue_gte=5000000)
 
 5) Filter contacts based on contact name:
-The endpoint should be able to fetch contacts based on contact name
-Endpoint: /contacts?name=John%20Doe (Fetch contacts where name='John Doe')
+The endpoint should be able to fetch contacts based on contact name  
+Endpoint: /contacts?name=John%20Doe (Fetch contacts where name='John Doe')  
 eg @ (http://127.0.0.1:8000/contacts?name=Kristina%20Rodgers)
 
 
