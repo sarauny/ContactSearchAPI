@@ -15,7 +15,7 @@ Installation instructions are available for LINUX/UNIX or MacOSX only. The entir
 
 ###	3. Download the package as a zipped folder or git clone from the github as following:-
 ```
-$ git clone https://github.com/hkailee/FluSeq.git
+$ git clone https://github.com/sarauny/ContactSearchAPI.git
 ```
 
 ###	4. Download necessary python packages
